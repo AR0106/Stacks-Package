@@ -1,0 +1,26 @@
+{
+  "name": "stacks-package",
+  "version": "1.0.0",
+  "description": "A Package that Creates Vertical and Horizontal, as well as Scroll Stacks, similiar to SwiftUI in React/NextJS",
+  "main": "Stacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AR0106/Stacks-Package.git"
+  },
+  "keywords": [
+    "stacks",
+    "next",
+    "vertical",
+    "horizontal",
+    "react"
+  ],
+  "author": "Alex Ritt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AR0106/Stacks-Package/issues"
+  },
+  "homepage": "https://github.com/AR0106/Stacks-Package#readme"
+}

@@ -30,3 +30,9 @@ export function ScrollStack({children, scroll}) {
         </div>
     );
 }
+
+module.exports = {
+    HorizontalStack: HorizontalStack({children}),
+    VerticalStack: VerticalStack({children}),
+    ScrollStack: ScrollStack({children, scroll})
+}
