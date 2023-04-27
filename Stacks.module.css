@@ -1,0 +1,23 @@
+.HorizontalStack {
+    display: flex;
+    flex-direction: row;
+}
+
+.VerticalStack {
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontalScroll {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.verticalScroll {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
