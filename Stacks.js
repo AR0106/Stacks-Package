@@ -1,16 +1,16 @@
 import style from "./styles/Stacks.module.css"
 
-export function HorizontalStack({children}) {
+export function HorizontalStack({children, className}) {
     return (
-        <div className={style.HorizontalStack}>
+        <div className={[style.HorizontalStack].concat(className).join(' ')}>
             {children}
         </div>
     );
 }
 
-export function VerticalStack({children}){
+export function VerticalStack({children, className}){
     return (
-        <div className={style.VerticalStack}>
+        <div className={[style.VerticalStack].concat(className).join(' ')}>
             {children}
         </div>
     );
@@ -21,11 +21,9 @@ export const ScrollType = {
     Vertical: style.verticalScroll
 }
 
-export function ScrollStack({children, scroll}) {
-    console.log(scroll)
-
+export function ScrollStack({children, scroll, className}) {
     return (
-        <div className={(scroll == ScrollType.Horizontal) ? ScrollType.Horizontal : ScrollType.Vertical}>
+        <div className={[(scroll == ScrollType.Horizontal) ? ScrollType.Horizontal : ScrollType.Vertical].concat(className).join(' ')}>
             {children}
         </div>
     );

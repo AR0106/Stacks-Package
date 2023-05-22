@@ -1,16 +1,19 @@
 .HorizontalStack {
     display: flex;
     flex-direction: row;
+    width: fit-content;
 }
 
 .VerticalStack {
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .horizontalScroll {
     display: flex;
     flex-direction: row;
+    max-width: fit-content;
     overflow-x: scroll;
     overflow-y: hidden;
 }
